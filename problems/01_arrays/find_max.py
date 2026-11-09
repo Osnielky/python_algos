@@ -14,7 +14,7 @@ Example:
     Output: ...
 
 My approach:
-    (explain your idea BEFORE you code it)
+    Im going element by element , every time I find a greater element I will  store it in a variable to be returned after 
 
 Complexity:
     Time:  O(?)
@@ -24,6 +24,13 @@ Complexity:
 
 def solve(data):
     # TODO: write your solution here
+    bigger = data[0];
+
+    for ele in data:
+if (ele > bigger)
+bigger = ele;
+
+
     return 7
 
     pass
@@ -34,10 +41,13 @@ def solve(data):
 # Run this file with:  python3 problems/01_arrays/find_max.py
 # ---------------------------------------------------------------------------
 TESTS = [
-   ([3, 7, 2], 7),
-    ([4], 4), 
+    ([3, 7, 2], 7),           # normal case, max in the middle
+    ([4], 4),                 # single item
+    ([1, 2, 9], 9),           # max at the end
+    ([9, 2, 1], 9),           # max at the start
+    ([-5, -1, -9], -1),       # all negatives
+    ([5, 5, 5], 5),           # repeated values
 ]
-
 
 def run_tests():
     if not TESTS:
