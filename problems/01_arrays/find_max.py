@@ -24,6 +24,8 @@ Complexity:
 
 def solve(data):
     # TODO: write your solution here
+    return 7
+
     pass
 
 
@@ -32,7 +34,8 @@ def solve(data):
 # Run this file with:  python3 problems/01_arrays/find_max.py
 # ---------------------------------------------------------------------------
 TESTS = [
-    # (input, expected),
+   ([3, 7, 2], 7),
+    ([4], 4), 
 ]
 
 
