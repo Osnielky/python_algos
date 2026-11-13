@@ -48,7 +48,7 @@ Roughly one topic per week. Do a few algorithm problems, then an OOP exercise.
 
 | Week | Topic | Suggested problems |
 |------|-------|--------------------|
-| 1 | Arrays | max of list (no `max()`), reverse list, two sum, remove duplicates, move zeros, best time to buy/sell stock |
+| 1 | Arrays | max of list (no `max()`), reverse list, second largest, running sum, missing number, two sum, remove duplicates, move zeros, best time to buy/sell stock, rotate array, max subarray (Kadane), product except self |
 | 2 | Strings | reverse string, palindrome, count vowels, valid anagram, first unique char, longest common prefix |
 | 3 | Hashing (dict/set) | contains duplicate, word frequency, group anagrams, intersection of arrays, top k frequent |
 | 4 | Two pointers | valid palindrome, merge sorted arrays, container with most water, 3sum |

@@ -1,3 +1,34 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:system"
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
+    },
+
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.callArgumentNames": "partial",
+    "python.analysis.completeFunctionParens": true,
+
+    "editor.suggestSelection": "first",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.quickSuggestionsDelay": 0,
+    "editor.parameterHints.enabled": true,
+    "editor.suggest.showStatusBar": true,
+
+    "editor.renderWhitespace": "boundary",
+    "editor.guides.indentation": true,
+    "editor.guides.bracketPairs": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.rulers": [88],
+
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.lightIndicatorStyleLineWidth": 2,
+    "indentRainbow.errorColor": "rgba(255,25,25,0.4)",
+    "indentRainbow.tabmixColor": "rgba(255,150,0,0.4)"
 }
